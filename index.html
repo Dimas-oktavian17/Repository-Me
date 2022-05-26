@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repository-Quora</title>
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- owl-carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar-light bg-trasnparent blur fixed-top -->
+
+    <!-- nav section -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light bg-trasnparent blur p-md-3 lh-base"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="./index.html">
+          Repository-Me</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li
+              class="nav-item pe-5"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-link fs-6 fw-bold text-dark" href="#home">Home</a>
+            </li>
+            <li
+              class="nav-item pe-5"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-link fs-6 fw-bold text-dark" href="#about">About</a>
+            </li>
+            <li
+              class="nav-item pe-5"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+            >
+              <a class="nav-link fs-6 fw-bold text-dark" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end -->
+    <!-- hero section -->
+    <section
+      class="hero"
+      id="home"
+      style="scroll-margin-top: 4rem; margin-top: 4rem"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <br />
+            <br /><br /><br />
+            <h1 class="fs-1">
+              <span class="pe-2 text-info fw-bold">Keep</span>Learning And
+              Reading
+            </h1>
+            <p class="fs-5 text-secondary fw-semibold">
+              Here's a website that keeps a reading list from quora which
+              contains about Communication, History, Economics etc
+            </p>
+            <a href="#book"
+              ><button class="cta">
+                <span>Reading Now</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg></button
+            ></a>
+          </div>
+          <div class="col-md-6">
+            <br /><br />
+            <figure class="figure">
+              <img
+                src="./undraw_reading_time_re_phf7.svg"
+                class="figure-img img-fluid rounded"
+                alt="..."
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+    <br /><br /><br /><br /><br />
+    <!-- deskripsi section -->
+    <section class="content" id="about" style="margin-top: 3em">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="text text-center text-break">
+          <div class="title fw-bold">"Just Repository Reading Quora"</div>
+          <div class="subtitle text-secondary fw-semibold fs-5">
+            Website Ini Hanya Menampilkan Sebuah Ringkasan Bacaan Yang Telah
+            Saya Baca Selebihnya Akan Di Arahkan Ke Website Resmi Quora Dan
+            Website ini Tidak Menyimpan Data Pribadi Anda.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end -->
+
+    <section class="content-2" id="book" style="scroll-margin-top: -2em">
+      <div class="container align-items-center justify-content-center">
+        <h1 class="fw-bold pb-3">Choose Reading</h1>
+
+        <ul
+          class="nav nav-pills mb-5 d-flex flex-row justify-content-center align-items-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link link-tabs active"
+              id="pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-home"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              Communication
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link link-tabs"
+              id="pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              History
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link link-tabs"
+              id="pills-contact-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-contact"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              Psychology
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link link-tabs"
+              id="pills-disabled-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-disabled"
+              type="button"
+              role="tab"
+              aria-controls="pills-disabled"
+              aria-selected="false"
+            >
+              Other
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                  <div class="item mb-4">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_hang_out_re_udl4.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Trik Komunikasi Terbaik
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Jika Anda Ingin Memengaruhi Orang Lain,Maka Pikirkan
+                          Apa Yang Mereka Pikirkan.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvAcoQ"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_hang_out_re_udl4.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Film Tentang Komunikasi
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Beberapa Film Ini Akan Mungkin Akan Membantu Untuk
+                          Skill Argumentasi,Komunikasi Anda.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCt33"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_hang_out_re_udl4.svg"
+                        class="card-img-top"
+                        alt="."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Menasehati Tanpa Melukai Hati Seseorang
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Cara Menasehati Yang Baik Dengan Metode Scroates.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCt0L"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_hang_out_re_udl4.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Apakah Teman Itu Penting?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Sebuah Kisah Menarik dari Isaac Newton,Tanpa
+                          Teman,Kekasih,kehidupan Sosial.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCn1d"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_hang_out_re_udl4.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Pentingnya Public Speaking
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Ilmu yang Penting Namu Kenapa Tidak Di Ajarkan Di
+                          Sekolah?
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCnyb"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_hang_out_re_udl4.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Trik Terbaik Di Terima Kerja
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Mindset Positif Akan Memberikan Dampak Yang Positif
+                          Bagi Diri Kita
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCn4K"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                  <div class="item mb-4">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Kondisi Inflasi Indonesia
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Selama Beberapa Tahun Terakhir Indonesia Mencatatkan
+                          Kondisi Inflasi Yang Positif
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC24M"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Sejarah Terkelam Tersembunyi
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Seringkali Kita Selalu Mengatakan Bahwa Penjajahan
+                          Belanda & Jepang Benar Kelam Namun Ada Yang Lebih
+                          kelam Dari Itu
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC2kc"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Mengapa Hewan Harus Di Lestarikan?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Sebuah Kisah Menarik Dari Tiongkok Dimana Terjadi
+                          Sebuah Pemburuan Masal Pada Burung Pipit Yang Malah
+                          Menyebabkan Kerugian++
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC24j"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Beberapa Nama Marga Dan gelar Bangsawan Indonesia
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Berikut Merupakan Berbagai Nama Gelar Bangsawan Di
+                          setiap Daerah nya
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC24S"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Mengapa Mekkah Bukan Menjadi Ibukota Arab Saudi?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Sebelum Membahas Lebih Lanjut,Perlu Diketahui Bahwa
+                          Arab Saudi Berdiri Karena Pasukan Pemberontak.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC2kE"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Foto Asli Kehidupan Yang Menyeramkan
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Sejarah Kelam Dimana Pengunaan Radium Untuk
+                          Pengobatan.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC2Mn"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_in_thought_re_qyxl.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Apa Contoh Negara Yang Bertranformasi Dari Kaya Ke
+                          MiSkin?
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Korea Utara Adalah Sebuh Contohnya,Kira" Apa Yang
+                          Menyebabkannya?
+                        </p>
+                        <a
+                          href="https://qr.ae/pvC2wx"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-contact"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                  <div class="item mb-4">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Mengapa Orang Pintar Tidak Bisa Menjelaskan Masalah
+                          Secara Sedherhana?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Curse of knowledge umum terjadi kepada orang yang
+                          sudah lama mempelajari suatu bidang, sehingga dia
+                          tidak pernah berpikir bahwa ada orang yang
+                          pengetahuannya tidak sedalam dia.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbpi"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Trik Psikologi Untuk Mengetahui Orang Yang Menyukai
+                          Kita
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Terkadang Dalam Suatu Keadaan Kita Tidak Sadar Ada
+                          orang Yang Menyukai Kita,Dengan Ilmu Ini Mungkin Bakal
+                          jadi Tahu Siapa Yang Menyukai Kita
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbRH"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Bagaimana Tahu Seseorang Sudah Dewasa Atau Tidak?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Ada Beberapa Ciri" Yang Menandakan Orang Tersebut
+                          Dewasa Atau Tidak
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbT6"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Beberapa Psikologi Yang Jarang Diketahui
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Semua Orang Pasti Pernah Merasakan Tapi Tidak
+                          Mengetahuinya
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbIy"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Dampak Free Sex Bagi Laki" Dan Perempuan
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Seringkali Free Sex Tidak Diperbolehkan Karna
+                          Agama,Namun Disini Akan Di Bahas Dengan Sudut Pandang
+                          Yang Berbeda
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbpR"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Apa Saja Etika Yang Sering Tidak Di Pahami Orang
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Sebuah Kisah Nyata Yang Menarik Dari Penulis
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbpz"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Bagaiamana Ciri" Orang Yang Memiliki Sifat Good
+                          Attitude?
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Ilmu Penting Untuk Mengetahui Mana Orang Yang Benar"
+                          Good Attitude
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbIh"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_book_lover_re_rwjy.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Kebiasaan Kecil Sehari" Yang Dapat Mengubah Hidup
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Beberapa Habits Yang Membuat Diri Menjadi Lebih Baik
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCbpf"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-disabled"
+            role="tabpanel"
+            aria-labelledby="pills-disabled-tab"
+            tabindex="0"
+          >
+            <div class="row">
+              <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                  <div class="item mb-4">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Mengapa Korupsi Susah Diberantas Di Indonesia
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Menelah Permasalahan Dari Sudut Pandang Si Penulis
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCwdN"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Selain Membaca Buku,Apakah Ada Cara Lain Agar Lebih
+                          Cerdas?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Beberapa Kegiatan Yang Mengasah Otak.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCwQB"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Sebuh Tempat Di Indonesia Yang Mirip Dengan Perdesaan
+                          Di Swiss
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Destinasi Wisata Di Indonesia Yang Mirip Dengan
+                          Perdesaan Swiss
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCwdo"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Mengapa Batu Trovants Bisa Tumbuh Dan Berkembang Biak?
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Batu trovants dapat ditemukan di Rumania. Berbentuk
+                          bulat, elips, atau menyerupai angka 8, ukurannya
+                          beragam dari beberapa milimeter sampai hitungan meter.
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCw0I"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Jawaban Yang Paling Berkesan Di Quora
+                        </h5>
+                        <p class="card-text fw-semibold text-secondary">
+                          Jawaban Yang Berkesan Di Quora Yang Berkesan Menurut
+                          Penulis
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCw0Z"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Bagaiama Membangun Start-Up dari 0
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Kisah Nyata Yang Menarik Dari Founder Start-Up
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCb7N"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div
+                      class="card d-flex flex-column justify-content-center align-items-center"
+                      style="width: 18rem"
+                    >
+                      <img
+                        src="./undraw_random_thoughts_re_cob6.svg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">
+                          Barang Yang Murah Di Indonesia Tapi Mahal Di Negara
+                          Lain
+                        </h5>
+                        <p class="card-text text-secondary fw-semibold">
+                          Beberapa Barang Yang Mahal Di Luar Negri Di Banding di
+                          Indonesia Menurut Penulis
+                        </p>
+                        <a
+                          href="https://qr.ae/pvCb7o"
+                          target="_blank"
+                          class="btn btn-dark"
+                          >Go somewhere</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- conntent -3 -->
+    <section class="content-3 bg-secondary" id="contact">
+      <div class="container">
+        <div class="fs-1 fw-bold text-start mb-5 text-light">Creator</div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 col-lg-4">
+            <!-- <div class="fancy"></div> -->
+            <div class="wraper">
+              <div
+                class="card d-flex flex-column justify-content-center align-items-center c-c3"
+                style="width: 18rem"
+              >
+                <img
+                  src="./main-qimg-e88b574df4ae17a8ce77367a01cf175e.gif"
+                  class="card-img-top rounded-circle my-3"
+                  alt="..."
+                />
+                <div class="card-body text-center text-light">
+                  <div class="card-title fs-5 fw-bold">DmsOkr</div>
+                  <p class="card-text fw-semibold">
+                    Membaca Tidak Membuat Anda Pintar Tapi Membuat Anda Tahu
+                    Kapan Untuk Bicara
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-8">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-4 col-sm-4">
+                <a
+                  href="https://web.facebook.com/dimas.oktavian.5055/"
+                  target="_blank"
+                >
+                  <figure class="figure icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="60"
+                      height="60"
+                      fill="currentColor"
+                      class="bi bi-facebook"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                      />
+                    </svg></figure
+                ></a>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <a href="https://github.com/Dimas-oktavian17" target="_blank">
+                  <figure class="figure icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="60"
+                      height="60"
+                      fill="currentColor"
+                      class="bi bi-github"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      />
+                    </svg></figure
+                ></a>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <a
+                  href="https://www.instagram.com/dimas_okr/?hl=id"
+                  target="_blank"
+                >
+                  <figure class="figure icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="60"
+                      height="60"
+                      fill="currentColor"
+                      class="bi bi-instagram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                      />
+                    </svg></figure
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer bg-secondary">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-center align-items-center py-5 border-top"
+        >
+          <div
+            class="col-md-12 d-flex flex-row justify-content-center align-items-center"
+          >
+            <span class="mb-3 mb-md-0 text-light"
+              >&copy; 2022 Made By DmsOkr</span
+            >
+          </div>
+        </footer>
+      </div>
+    </section>
+    <!-- end -->
+    <!-- Jquery,bootstrap,owl-carousel,window-->
+    <script src="./window.js"></script>
+    <!-- <script src="./Bootstrap/js/jquery.min.js"></script> -->
+    <script src="./bootstrap-footer-18/bootstrap-footer-18/js/jquery.min.js"></script>
+    <script src="./bootstrap-footer-18/bootstrap-footer-18/js/bootstrap.min.js"></script>
+    <script src="./Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./node_modules/bootstrap/js/src/popover.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
